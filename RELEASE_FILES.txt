@@ -1,0 +1,30 @@
+VIVU STUDIO - protected customer package
+
+VoiceOverStudio.exe
+app.cp312-win_amd64.pyd
+bootstrap.pyc
+config_store.pyc
+core.pyc
+diagnostics.pyc
+licensing.pyc
+chatterbox_v3.pyc
+image_audio_motion_pipeline_v9.pyc
+stable_clean_runner.cp312-win_amd64.pyd
+assets\voice.ico
+assets\voice.png
+assets\gemini_bg_48.png
+assets\gemini_bg_96.png
+assets\red-subscribe-like-noti.mp4
+requirements.txt
+data\profiles\ingamar-oldman-v2b\profile.json
+data\profiles\ingamar-oldman-v2b\reference.wav
+data\profiles\ingamar-oldman-v2b\original_reference.mp3
+
+Do NOT include any first-party .py source file.
+Do NOT include license_admin.py or setup_protected.py.
+Do NOT include ProPainter, vsr_propainter_runner.py, premium_safe_runner.mjs,
+vendor, models, cache, build, local Conda environments, tests, or tts-model.
+Only the listed portable old-man profile is included under data.
+
+Third-party dependencies and models download automatically on first use.
+CPU computers use the native Stable Clean module and libx264 fallback.
